@@ -2,8 +2,3 @@ version: "2"
 services:
   dev:
     build: .
-    ports:
-    - "8080:8080"
-    volumes:
-    - ./workspace:/workspace
-    command: bash
