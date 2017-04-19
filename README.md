@@ -4,7 +4,7 @@ A dockerized development environment
 ## Usage
  - Clone this project in the same directory as your other projects
  - Run `docker build -t dev .`
- - Then `docker run -it -v /home/myagoo/dev:/workspace dev bash`
+ - Then `docker run --name dev -i -t -v /home/myagoo/dev:/workspace dev bash`
 
 ## Useful docker commands
  - Clean exited container `docker rm $(docker ps -aq)`
